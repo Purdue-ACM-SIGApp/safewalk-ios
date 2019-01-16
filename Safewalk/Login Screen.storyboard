@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1YK-EH-bUZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Screen-->
+        <scene sceneID="q7N-O9-PsJ">
+            <objects>
+                <viewController title="Login Screen" id="1YK-EH-bUZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KgC-id-dxm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0g5-vx-M5x">
+                                <rect key="frame" x="77" y="280" width="221" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PUj-Ou-sxj">
+                                <rect key="frame" x="77" y="223" width="221" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QG-Ea-24q">
+                                <rect key="frame" x="87" y="339" width="201" height="30"/>
+                                <state key="normal" title="Login using PUID"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJU-uq-QX8">
+                                <rect key="frame" x="87" y="398" width="201" height="30"/>
+                                <state key="normal" title="Login as a Guest"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For emergencies, please call 911." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ros-CH-9jL">
+                                <rect key="frame" x="62" y="568" width="251" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="seT-1h-oDh" firstAttribute="trailing" secondItem="PUj-Ou-sxj" secondAttribute="trailing" constant="77" id="Fh2-WF-rHy"/>
+                            <constraint firstItem="PUj-Ou-sxj" firstAttribute="leading" secondItem="seT-1h-oDh" secondAttribute="leading" constant="77" id="G6u-pn-8uX"/>
+                            <constraint firstItem="2QG-Ea-24q" firstAttribute="top" secondItem="0g5-vx-M5x" secondAttribute="bottom" constant="29" id="Jaa-Ul-HGW"/>
+                            <constraint firstItem="FJU-uq-QX8" firstAttribute="top" secondItem="2QG-Ea-24q" secondAttribute="bottom" constant="29" id="Yaw-eO-aaj"/>
+                            <constraint firstItem="0g5-vx-M5x" firstAttribute="top" secondItem="PUj-Ou-sxj" secondAttribute="bottom" constant="27" id="cv8-Hg-qw4"/>
+                            <constraint firstItem="PUj-Ou-sxj" firstAttribute="top" secondItem="seT-1h-oDh" secondAttribute="top" constant="203" id="y36-zH-XCG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="seT-1h-oDh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNE-Wp-xZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>
