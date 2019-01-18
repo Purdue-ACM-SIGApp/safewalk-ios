@@ -14,6 +14,11 @@
 		7D1CA6C121E57B6D00B7D914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1CA6BF21E57B6D00B7D914 /* LaunchScreen.storyboard */; };
 		7D1CA6CC21E57B6D00B7D914 /* SafewalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6CB21E57B6D00B7D914 /* SafewalkTests.swift */; };
 		7D1CA6D721E57B6D00B7D914 /* SafewalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6D621E57B6D00B7D914 /* SafewalkUITests.swift */; };
+		7DAC3C2321EEB23F00FD9DEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2221EEB23F00FD9DEA /* User.swift */; };
+		7DAC3C2521EEB56300FD9DEA /* Safewalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2421EEB56300FD9DEA /* Safewalk.swift */; };
+		7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2621EEB6E800FD9DEA /* Student.swift */; };
+		7DAC3C2921EEB86400FD9DEA /* Officer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2821EEB86400FD9DEA /* Officer.swift */; };
+		7DAC3C2B21EEB8DF00FD9DEA /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		7D1CA6D221E57B6D00B7D914 /* SafewalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafewalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1CA6D621E57B6D00B7D914 /* SafewalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafewalkUITests.swift; sourceTree = "<group>"; };
 		7D1CA6D821E57B6D00B7D914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAC3C2221EEB23F00FD9DEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7DAC3C2421EEB56300FD9DEA /* Safewalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safewalk.swift; sourceTree = "<group>"; };
+		7DAC3C2621EEB6E800FD9DEA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		7DAC3C2821EEB86400FD9DEA /* Officer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officer.swift; sourceTree = "<group>"; };
+		7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */,
 				7D1CA6B821E57B6B00B7D914 /* ViewController.swift */,
+				7DAC3C2221EEB23F00FD9DEA /* User.swift */,
+				7DAC3C2621EEB6E800FD9DEA /* Student.swift */,
+				7DAC3C2821EEB86400FD9DEA /* Officer.swift */,
+				7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */,
+				7DAC3C2421EEB56300FD9DEA /* Safewalk.swift */,
 				7D1CA6BA21E57B6B00B7D914 /* Main.storyboard */,
 				7D1CA6BD21E57B6D00B7D914 /* Assets.xcassets */,
 				7D1CA6BF21E57B6D00B7D914 /* LaunchScreen.storyboard */,
@@ -258,6 +273,11 @@
 			files = (
 				7D1CA6B921E57B6B00B7D914 /* ViewController.swift in Sources */,
 				7D1CA6B721E57B6B00B7D914 /* AppDelegate.swift in Sources */,
+				7DAC3C2321EEB23F00FD9DEA /* User.swift in Sources */,
+				7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */,
+				7DAC3C2921EEB86400FD9DEA /* Officer.swift in Sources */,
+				7DAC3C2B21EEB8DF00FD9DEA /* Guest.swift in Sources */,
+				7DAC3C2521EEB56300FD9DEA /* Safewalk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
