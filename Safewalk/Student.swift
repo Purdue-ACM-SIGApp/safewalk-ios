@@ -8,11 +8,11 @@
 
 import Foundation
 class Student: User {
-    var name: String
-    var username: String
-    var password: String
+    var name: String?
+    var username: String?
+    var password: String?
+    var phoneNumber: String?
     var location: String
-    var phoneNumber: String
     
     init(name: String, username: String, password: String, location: String, phoneNumber: String) {
         self.name = name

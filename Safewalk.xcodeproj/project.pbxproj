@@ -14,6 +14,10 @@
 		7D1CA6C121E57B6D00B7D914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1CA6BF21E57B6D00B7D914 /* LaunchScreen.storyboard */; };
 		7D1CA6CC21E57B6D00B7D914 /* SafewalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6CB21E57B6D00B7D914 /* SafewalkTests.swift */; };
 		7D1CA6D721E57B6D00B7D914 /* SafewalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6D621E57B6D00B7D914 /* SafewalkUITests.swift */; };
+		7D465EF221F151C400B74E0A /* EndSafewalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D465EF121F151C400B74E0A /* EndSafewalk.storyboard */; };
+		7D465EF421F152B900B74E0A /* EndSafewalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D465EF321F152B900B74E0A /* EndSafewalkViewController.swift */; };
+		7D465EF621F1587100B74E0A /* RequestSubmitted.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D465EF521F1587100B74E0A /* RequestSubmitted.storyboard */; };
+		7D465EFA21F158AD00B74E0A /* RequestSubmittedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D465EF921F158AD00B74E0A /* RequestSubmittedViewController.swift */; };
 		7DAC3C2321EEB23F00FD9DEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2221EEB23F00FD9DEA /* User.swift */; };
 		7DAC3C2521EEB56300FD9DEA /* Safewalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2421EEB56300FD9DEA /* Safewalk.swift */; };
 		7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2621EEB6E800FD9DEA /* Student.swift */; };
@@ -52,6 +56,10 @@
 		7D1CA6D221E57B6D00B7D914 /* SafewalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafewalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1CA6D621E57B6D00B7D914 /* SafewalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafewalkUITests.swift; sourceTree = "<group>"; };
 		7D1CA6D821E57B6D00B7D914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D465EF121F151C400B74E0A /* EndSafewalk.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EndSafewalk.storyboard; sourceTree = "<group>"; };
+		7D465EF321F152B900B74E0A /* EndSafewalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndSafewalkViewController.swift; sourceTree = "<group>"; };
+		7D465EF521F1587100B74E0A /* RequestSubmitted.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RequestSubmitted.storyboard; sourceTree = "<group>"; };
+		7D465EF921F158AD00B74E0A /* RequestSubmittedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSubmittedViewController.swift; sourceTree = "<group>"; };
 		7DAC3C2221EEB23F00FD9DEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7DAC3C2421EEB56300FD9DEA /* Safewalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safewalk.swift; sourceTree = "<group>"; };
 		7DAC3C2621EEB6E800FD9DEA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -107,11 +115,15 @@
 		7D1CA6B521E57B6B00B7D914 /* Safewalk */ = {
 			isa = PBXGroup;
 			children = (
+				7D465EF921F158AD00B74E0A /* RequestSubmittedViewController.swift */,
 				7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */,
 				7D1CA6B821E57B6B00B7D914 /* ViewController.swift */,
 				7DAC3C2221EEB23F00FD9DEA /* User.swift */,
 				7DAC3C2621EEB6E800FD9DEA /* Student.swift */,
 				7DAC3C2821EEB86400FD9DEA /* Officer.swift */,
+				7D465EF121F151C400B74E0A /* EndSafewalk.storyboard */,
+				7D465EF321F152B900B74E0A /* EndSafewalkViewController.swift */,
+				7D465EF521F1587100B74E0A /* RequestSubmitted.storyboard */,
 				7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */,
 				7DAC3C2421EEB56300FD9DEA /* Safewalk.swift */,
 				7D1CA6BA21E57B6B00B7D914 /* Main.storyboard */,
@@ -244,8 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D465EF621F1587100B74E0A /* RequestSubmitted.storyboard in Resources */,
 				7D1CA6C121E57B6D00B7D914 /* LaunchScreen.storyboard in Resources */,
 				7D1CA6BE21E57B6D00B7D914 /* Assets.xcassets in Resources */,
+				7D465EF221F151C400B74E0A /* EndSafewalk.storyboard in Resources */,
 				7D1CA6BC21E57B6B00B7D914 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +291,8 @@
 				7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */,
 				7DAC3C2921EEB86400FD9DEA /* Officer.swift in Sources */,
 				7DAC3C2B21EEB8DF00FD9DEA /* Guest.swift in Sources */,
+				7D465EF421F152B900B74E0A /* EndSafewalkViewController.swift in Sources */,
+				7D465EFA21F158AD00B74E0A /* RequestSubmittedViewController.swift in Sources */,
 				7DAC3C2521EEB56300FD9DEA /* Safewalk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
