@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C32ADB521F1578300267A40 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32ADB421F1578300267A40 /* LoginScreenViewController.swift */; };
+		1C4A68D121EEB11A0012CF13 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A68D021EEB11A0012CF13 /* LoginScreen.storyboard */; };
 		7D1CA6B721E57B6B00B7D914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */; };
 		7D1CA6B921E57B6B00B7D914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6B821E57B6B00B7D914 /* ViewController.swift */; };
 		7D1CA6BC21E57B6B00B7D914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1CA6BA21E57B6B00B7D914 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C32ADB421F1578300267A40 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		1C4A68D021EEB11A0012CF13 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		7D1CA6B321E57B6B00B7D914 /* Safewalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safewalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D1CA6B821E57B6B00B7D914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				7D1CA6BD21E57B6D00B7D914 /* Assets.xcassets */,
 				7D1CA6BF21E57B6D00B7D914 /* LaunchScreen.storyboard */,
 				7D1CA6C221E57B6D00B7D914 /* Info.plist */,
+				1C4A68D021EEB11A0012CF13 /* LoginScreen.storyboard */,
+				1C32ADB421F1578300267A40 /* LoginScreenViewController.swift */,
 			);
 			path = Safewalk;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				7D1CA6C121E57B6D00B7D914 /* LaunchScreen.storyboard in Resources */,
 				7D1CA6BE21E57B6D00B7D914 /* Assets.xcassets in Resources */,
 				7D1CA6BC21E57B6B00B7D914 /* Main.storyboard in Resources */,
+				1C4A68D121EEB11A0012CF13 /* LoginScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +280,7 @@
 			files = (
 				7D1CA6B921E57B6B00B7D914 /* ViewController.swift in Sources */,
 				7D1CA6B721E57B6B00B7D914 /* AppDelegate.swift in Sources */,
+				1C32ADB521F1578300267A40 /* LoginScreenViewController.swift in Sources */,
 				7DAC3C2321EEB23F00FD9DEA /* User.swift in Sources */,
 				7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */,
 				7DAC3C2921EEB86400FD9DEA /* Officer.swift in Sources */,
