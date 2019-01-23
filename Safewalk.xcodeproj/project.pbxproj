@@ -23,6 +23,8 @@
 		7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2621EEB6E800FD9DEA /* Student.swift */; };
 		7DAC3C2921EEB86400FD9DEA /* Officer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2821EEB86400FD9DEA /* Officer.swift */; };
 		7DAC3C2B21EEB8DF00FD9DEA /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */; };
+		7DF4DACB21F7EB53000D47D3 /* MapScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF4DACA21F7EB53000D47D3 /* MapScreen.storyboard */; };
+		7DF4DACD21F7EEB0000D47D3 /* MapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4DACC21F7EEB0000D47D3 /* MapScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		7DAC3C2621EEB6E800FD9DEA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		7DAC3C2821EEB86400FD9DEA /* Officer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officer.swift; sourceTree = "<group>"; };
 		7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		7DF4DACA21F7EB53000D47D3 /* MapScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapScreen.storyboard; sourceTree = "<group>"; };
+		7DF4DACC21F7EEB0000D47D3 /* MapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				7D465EF921F158AD00B74E0A /* RequestSubmittedViewController.swift */,
 				7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */,
 				7D1CA6B821E57B6B00B7D914 /* ViewController.swift */,
+				7DF4DACA21F7EB53000D47D3 /* MapScreen.storyboard */,
+				7DF4DACC21F7EEB0000D47D3 /* MapScreenViewController.swift */,
 				7DAC3C2221EEB23F00FD9DEA /* User.swift */,
 				7DAC3C2621EEB6E800FD9DEA /* Student.swift */,
 				7DAC3C2821EEB86400FD9DEA /* Officer.swift */,
@@ -259,6 +265,7 @@
 				7D465EF621F1587100B74E0A /* RequestSubmitted.storyboard in Resources */,
 				7D1CA6C121E57B6D00B7D914 /* LaunchScreen.storyboard in Resources */,
 				7D1CA6BE21E57B6D00B7D914 /* Assets.xcassets in Resources */,
+				7DF4DACB21F7EB53000D47D3 /* MapScreen.storyboard in Resources */,
 				7D465EF221F151C400B74E0A /* EndSafewalk.storyboard in Resources */,
 				7D1CA6BC21E57B6B00B7D914 /* Main.storyboard in Resources */,
 			);
@@ -288,6 +295,7 @@
 				7D1CA6B921E57B6B00B7D914 /* ViewController.swift in Sources */,
 				7D1CA6B721E57B6B00B7D914 /* AppDelegate.swift in Sources */,
 				7DAC3C2321EEB23F00FD9DEA /* User.swift in Sources */,
+				7DF4DACD21F7EEB0000D47D3 /* MapScreenViewController.swift in Sources */,
 				7DAC3C2721EEB6E800FD9DEA /* Student.swift in Sources */,
 				7DAC3C2921EEB86400FD9DEA /* Officer.swift in Sources */,
 				7DAC3C2B21EEB8DF00FD9DEA /* Guest.swift in Sources */,
