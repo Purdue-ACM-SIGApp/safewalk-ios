@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7168D1B321F7F288003267E4 /* AcceptedSafeWalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7168D1B121F7F288003267E4 /* AcceptedSafeWalk.storyboard */; };
-		71F0FF4B21F15842009A7507 /* PictureScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F0FF4921F15842009A7507 /* PictureScreen.storyboard */; };
-		71F0FF4D21F1596A009A7507 /* PictureScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */; };
 		1C32ADB521F1578300267A40 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32ADB421F1578300267A40 /* LoginScreenViewController.swift */; };
 		1C4A68D121EEB11A0012CF13 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A68D021EEB11A0012CF13 /* LoginScreen.storyboard */; };
 		1CACB05521F7EC3400E4C92A /* RequestSchedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CACB05421F7EC3400E4C92A /* RequestSchedule.storyboard */; };
 		1CACB05721F7ED4400E4C92A /* RequestScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACB05621F7ED4400E4C92A /* RequestScheduleViewController.swift */; };
+		7168D1B321F7F288003267E4 /* AcceptedSafeWalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7168D1B121F7F288003267E4 /* AcceptedSafeWalk.storyboard */; };
+		71F0FF4B21F15842009A7507 /* PictureScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F0FF4921F15842009A7507 /* PictureScreen.storyboard */; };
+		71F0FF4D21F1596A009A7507 /* PictureScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */; };
 		7D1CA6B721E57B6B00B7D914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */; };
 		7D1CA6B921E57B6B00B7D914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6B821E57B6B00B7D914 /* ViewController.swift */; };
 		7D1CA6BC21E57B6B00B7D914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1CA6BA21E57B6B00B7D914 /* Main.storyboard */; };
@@ -32,6 +32,7 @@
 		7DAC3C2B21EEB8DF00FD9DEA /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */; };
 		7DF4DACB21F7EB53000D47D3 /* MapScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF4DACA21F7EB53000D47D3 /* MapScreen.storyboard */; };
 		7DF4DACD21F7EEB0000D47D3 /* MapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4DACC21F7EEB0000D47D3 /* MapScreenViewController.swift */; };
+		EACFC67F7D109D07A4C479A0 /* Pods_Safewalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE408047C73D1B8AE941605 /* Pods_Safewalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7168D1B221F7F288003267E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AcceptedSafeWalk.storyboard; sourceTree = "<group>"; };
-		71F0FF4A21F15842009A7507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PictureScreen.storyboard; sourceTree = "<group>"; };
-		71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureScreenController.swift; sourceTree = "<group>"; };
 		1C32ADB421F1578300267A40 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		1C4A68D021EEB11A0012CF13 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		1CACB05421F7EC3400E4C92A /* RequestSchedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RequestSchedule.storyboard; sourceTree = "<group>"; };
 		1CACB05621F7ED4400E4C92A /* RequestScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestScheduleViewController.swift; sourceTree = "<group>"; };
+		3EE408047C73D1B8AE941605 /* Pods_Safewalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safewalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B14C975FBBA9E9418550AE /* Pods-Safewalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safewalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Safewalk/Pods-Safewalk.debug.xcconfig"; sourceTree = "<group>"; };
+		7168D1B221F7F288003267E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AcceptedSafeWalk.storyboard; sourceTree = "<group>"; };
+		71F0FF4A21F15842009A7507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PictureScreen.storyboard; sourceTree = "<group>"; };
+		71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureScreenController.swift; sourceTree = "<group>"; };
 		7D1CA6B321E57B6B00B7D914 /* Safewalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safewalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D1CA6B821E57B6B00B7D914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +86,7 @@
 		7DAC3C2A21EEB8DF00FD9DEA /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
 		7DF4DACA21F7EB53000D47D3 /* MapScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapScreen.storyboard; sourceTree = "<group>"; };
 		7DF4DACC21F7EEB0000D47D3 /* MapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewController.swift; sourceTree = "<group>"; };
+		D9F2C030564A5E83CEE3A56A /* Pods-Safewalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safewalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safewalk/Pods-Safewalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACFC67F7D109D07A4C479A0 /* Pods_Safewalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26181DBE60F2E46127B2A554 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61B14C975FBBA9E9418550AE /* Pods-Safewalk.debug.xcconfig */,
+				D9F2C030564A5E83CEE3A56A /* Pods-Safewalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7D1CA6AA21E57B6B00B7D914 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +131,8 @@
 				7D1CA6CA21E57B6D00B7D914 /* SafewalkTests */,
 				7D1CA6D521E57B6D00B7D914 /* SafewalkUITests */,
 				7D1CA6B421E57B6B00B7D914 /* Products */,
+				26181DBE60F2E46127B2A554 /* Pods */,
+				909A230A3BEFE12B810977BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +195,14 @@
 			path = SafewalkUITests;
 			sourceTree = "<group>";
 		};
+		909A230A3BEFE12B810977BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EE408047C73D1B8AE941605 /* Pods_Safewalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D1CA6DB21E57B6D00B7D914 /* Build configuration list for PBXNativeTarget "Safewalk" */;
 			buildPhases = (
+				2358778C68CE67BDE2ABB043 /* [CP] Check Pods Manifest.lock */,
 				7D1CA6AF21E57B6B00B7D914 /* Sources */,
 				7D1CA6B021E57B6B00B7D914 /* Frameworks */,
 				7D1CA6B121E57B6B00B7D914 /* Resources */,
+				D8B8BB94372612AA0B886853 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +337,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2358778C68CE67BDE2ABB043 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safewalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B8BB94372612AA0B886853 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Safewalk/Pods-Safewalk-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Safewalk/Pods-Safewalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D1CA6AF21E57B6B00B7D914 /* Sources */ = {
@@ -518,6 +585,7 @@
 		};
 		7D1CA6DC21E57B6D00B7D914 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B14C975FBBA9E9418550AE /* Pods-Safewalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +605,7 @@
 		};
 		7D1CA6DD21E57B6D00B7D914 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F2C030564A5E83CEE3A56A /* Pods-Safewalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
