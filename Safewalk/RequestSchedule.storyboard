@@ -13,7 +13,7 @@
         <!--RequestSchedule -->
         <scene sceneID="l05-bz-xA3">
             <objects>
-                <viewController id="Wto-5S-WqB" userLabel="RequestSchedule " customClass="RequestScheduleViewController" customModule="Safewalk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RequestScheduleViewController" id="Wto-5S-WqB" userLabel="RequestSchedule " customClass="RequestScheduleViewController" customModule="Safewalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L5b-f3-Qcu" userLabel="View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
