@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7168D1B321F7F288003267E4 /* AcceptedSafeWalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7168D1B121F7F288003267E4 /* AcceptedSafeWalk.storyboard */; };
 		71F0FF4B21F15842009A7507 /* PictureScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F0FF4921F15842009A7507 /* PictureScreen.storyboard */; };
 		71F0FF4D21F1596A009A7507 /* PictureScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */; };
 		7D1CA6B721E57B6B00B7D914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CA6B621E57B6B00B7D914 /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7168D1B221F7F288003267E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AcceptedSafeWalk.storyboard; sourceTree = "<group>"; };
 		71F0FF4A21F15842009A7507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PictureScreen.storyboard; sourceTree = "<group>"; };
 		71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureScreenController.swift; sourceTree = "<group>"; };
 		7D1CA6B321E57B6B00B7D914 /* Safewalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Safewalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				7D1CA6C221E57B6D00B7D914 /* Info.plist */,
 				71F0FF4921F15842009A7507 /* PictureScreen.storyboard */,
 				71F0FF4C21F1596A009A7507 /* PictureScreenController.swift */,
+				7168D1B121F7F288003267E4 /* AcceptedSafeWalk.storyboard */,
 			);
 			path = Safewalk;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7168D1B321F7F288003267E4 /* AcceptedSafeWalk.storyboard in Resources */,
 				7D1CA6C121E57B6D00B7D914 /* LaunchScreen.storyboard in Resources */,
 				7D1CA6BE21E57B6D00B7D914 /* Assets.xcassets in Resources */,
 				7D1CA6BC21E57B6B00B7D914 /* Main.storyboard in Resources */,
@@ -301,6 +305,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7168D1B121F7F288003267E4 /* AcceptedSafeWalk.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7168D1B221F7F288003267E4 /* Base */,
+			);
+			name = AcceptedSafeWalk.storyboard;
+			sourceTree = "<group>";
+		};
 		71F0FF4921F15842009A7507 /* PictureScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
