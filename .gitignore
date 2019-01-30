@@ -3,3 +3,4 @@ build
 *.xcodeproj
 *.xcuserdata
 key.txt
+keys.plist
