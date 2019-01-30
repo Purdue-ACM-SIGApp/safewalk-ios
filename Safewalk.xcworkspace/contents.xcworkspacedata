@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/crosenblatt/Documents/School/Purdue/SIGAPP/Safewalk/Safewalk/keys.plist">
+   </FileRef>
+   <FileRef
       location = "group:Safewalk.xcodeproj">
    </FileRef>
    <FileRef
