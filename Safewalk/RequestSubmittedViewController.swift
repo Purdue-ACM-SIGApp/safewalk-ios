@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 
 class RequestSubmittedViewController: UIViewController {
+    @IBOutlet weak var requestSubmitted: UILabel!
+    @IBOutlet weak var officer: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,16 @@ class RequestSubmittedViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Yes", style: .cancel, handler: nil))
         alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
         self.present(alert, animated: true)
+    }
+    
+    func alertOfficerFound() {
+        let alert = UIAlertController(title: "Officer Found!", message: "An officer will be at your location shortly", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        self.present(alert, animated: true)
+    }
+    
+    func officerFound(time: Int) {
+        requestSubmitted.text = ""
+        officer.text = "ETA: \(time) Minutes"
     }
 }

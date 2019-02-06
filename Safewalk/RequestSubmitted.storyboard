@@ -52,6 +52,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Gao-sw-0XL"/>
                     </view>
+                    <connections>
+                        <outlet property="officer" destination="R4g-CU-2IR" id="1QT-IZ-DDl"/>
+                        <outlet property="requestSubmitted" destination="01G-ze-fYa" id="wAB-L1-JNP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8H-xx-M3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
