@@ -40,6 +40,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJU-uq-QX8">
                                 <rect key="frame" x="87" y="442" width="201" height="30"/>
                                 <state key="normal" title="Login as a Guest"/>
+                                <connections>
+                                    <segue destination="1zq-4B-FB0" kind="show" id="suX-vN-KgG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For emergencies, please call 911." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ros-CH-9jL">
                                 <rect key="frame" x="62" y="568" width="251" height="36"/>
@@ -93,4 +96,7 @@
             <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EFa-bq-8Ol"/>
+    </inferredMetricsTieBreakers>
 </document>
