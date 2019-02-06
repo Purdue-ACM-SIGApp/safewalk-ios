@@ -22,9 +22,8 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="523"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSG-ej-kZu">
-                                <rect key="frame" x="127" y="578" width="121" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSG-ej-kZu">
+                                <rect key="frame" x="127" y="599" width="121" height="30"/>
                                 <state key="normal" title="Take Photo"/>
                                 <connections>
                                     <action selector="takePhoto:" destination="2wS-c5-QhG" eventType="touchUpInside" id="9BH-88-cgC"/>
@@ -32,6 +31,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Za6-YS-iWO" firstAttribute="bottom" secondItem="FSG-ej-kZu" secondAttribute="bottom" constant="38" id="Ma3-HT-B0O"/>
+                            <constraint firstItem="FSG-ej-kZu" firstAttribute="leading" secondItem="Za6-YS-iWO" secondAttribute="leading" constant="127" id="P7e-8b-8Rb"/>
+                            <constraint firstItem="Za6-YS-iWO" firstAttribute="trailing" secondItem="FSG-ej-kZu" secondAttribute="trailing" constant="127" id="Rpg-N1-9e9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Za6-YS-iWO"/>
                     </view>
                     <connections>
