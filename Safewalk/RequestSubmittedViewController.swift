@@ -8,6 +8,9 @@
 
 import Foundation
 import UIKit
+import PlainPing
+import Alamofire
+
 
 class RequestSubmittedViewController: UIViewController {
     @IBOutlet weak var requestSubmitted: UILabel!
@@ -24,7 +27,23 @@ class RequestSubmittedViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
         self.present(alert, animated: true)
         
+        PlainPing.ping("safewalk.sigapp.club", completionBlock: {
+            (timeElapsed: Double?, error: Error?) in
+            
+            if let latency = timeElapsed {
+                print("latency: \(latency)")
+            }
+            
+            if let error = error {
+                print("error: \(error.localizedDescription)")
+            }
+        })
         
+        Alamofire.request("https://safewalk.sigapp.club/actuator/health").responseJSON(completionHandler: { response in
+            print(response.request)
+            print(response.response)
+            print(response.result)
+        })
     }
     
     func alertOfficerFound() {

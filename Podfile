@@ -9,5 +9,6 @@ target 'Safewalk' do
   
   pod 'GoogleMaps'
   pod 'GooglePlaces'
-
+  pod 'PlainPing'
+  pod 'Alamofire'
 end
