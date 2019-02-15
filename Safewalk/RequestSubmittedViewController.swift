@@ -23,6 +23,8 @@ class RequestSubmittedViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Yes", style: .cancel, handler: nil))
         alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
         self.present(alert, animated: true)
+        
+        
     }
     
     func alertOfficerFound() {
